@@ -1,0 +1,117 @@
+/****************************************/
+/*     Estilos de UniverSAP             */
+/* Autores:                             */
+/* José Durán, Analista de Sistemas     */
+/* Enrique Arcaya, Analista de Sistemas */
+/****************************************/
+
+/******************************************************************/
+/*                           Header                               */
+/******************************************************************/
+
+/* Reasigna el tamaño y la posción de título del curso */
+#sitetitle, #sitetitle a, #sitetitle p, #sitetitle h1
+{
+    font-size: 30px;
+    left: 80px;
+    top: 25px;
+}
+
+
+/******************************************************************/
+/*                           Barra Sub Menu                       */
+/******************************************************************/
+
+/* Estilo de la barra de navegación debajo del slider */
+.sub-menu
+{
+    height: 40px;
+    font-weight: 500;
+    background-image: url("/moodle/custom/images/Back_SubMenu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ /*  Modifica el tamaño de los enlaces de la barra */
+ .sub-menu > ul > li > a
+ {
+    min-height: 40px;
+    height: 40px;
+ }
+
+/******************************************************************/
+/*           Bloques promocionales / Marketing blocks             */
+/******************************************************************/
+
+/* Quita el borde de las cajas de categorías de la página principal */
+#marketblocks .covtiles
+{
+    border: none;
+    box-shadow: none;
+}
+
+/* Quita el margen de la imagen de las cajas de categorías y coloca una sombra
+ * decorativa
+ */
+.img-categoria
+{
+    margin: 0;
+    box-shadow: 4px 4px 2px #e2e2e2;
+}
+
+/******************************************************************/
+/*                           Listas de Navegación                 */
+/******************************************************************/
+
+/* Elimina el margen que el framework uikit añade a la lista de configuraciones */
+.block_settings .block_tree ul 
+{
+    margin-left: 0;
+}
+
+/* Elimina el margen que el framework uikit añade a la lista de navegación */
+.block_navigation .block_tree ul 
+{
+    margin-left: 0;
+}
+
+/******************************************************************/
+/*                           Banner                               */
+/******************************************************************/
+
+/* Estilo para el fondo del banner de información */
+.banner
+{
+    background-image: url("/moodle/custom/images/Banner01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:140px;
+ }
+
+/******************************************************************/
+/*                           Genérico                             */
+/******************************************************************/
+
+/* Añade un efecto de zoom agrandando el elemento al posar el mouse sobre el */
+.zoom {transition: transform .5s;}
+.zoom:hover {transform: scale(1.05);}
+
+/******************************************************************/
+/*    estilos de color para el anuncio que sale en frontpage      */
+/******************************************************************/
+/*ya que el anuncio de la pagina era chocante por los colores, se ha modificado*/
+
+.hidden-blocks{
+    background-color: rgb(127, 222, 126, 0.5);
+}
+
+.hidden-blocks h3{
+    color: #259a45;
+}
+
+/**************************************************/
+/*          Bitacora de modificaciones            */
+/**************************************************/
+
+/* José Durán: Creación del archivo con los estilos creados o modificados asta la fecha*/
+/* Fecha: 11/12/2018 */
