@@ -109,6 +109,17 @@
     color: #259a45;
 }
 
+/******************************************************************/
+/*          estilo de lista en el nav bar de iconos               */
+/******************************************************************/
+
+/*le quita el estilo de puntos en la lista dentr de la barra*/
+
+.barr-icon > li{
+    list-style: none;
+}
+
+
 /**************************************************/
 /*          Bitacora de modificaciones            */
 /**************************************************/
